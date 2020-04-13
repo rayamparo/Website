@@ -146,14 +146,51 @@ function removeHiddenMessage(){
 
 
 
-$('#sendMsgBtn').on('click', function(){
+$('#sendMsgBtn').on('click', function(event){
+  event.preventDefault();
     let name = $('#name').val();
     let email = $('#email').val();
     let number = $('#number').val();
     let message = $('#message').val();
 
-    console.log(name, email, number, message)
+    console.log(name, email, number, message);
 });
+
+// Nodemailer
+// var nodemailer = require('nodemailer');
+
+// var transporter = nodemailer.createTransport({
+//   service: 'gmail',
+//   auth: {
+//     user: 'contactsender123@gmail.com',
+//     pass: 'Lawray2112!'
+//   }
+// });
+
+// let mailOptions = {
+//   from: 'contactsender123@gmail.com',
+//   to: 'raymond.f.amparo',
+//   sender: function() {
+//     $('#sendMsgBtn').on('click', function(event){
+//       event.preventDefault();
+//         mailOptions.subject = 'Name: ' + $('#name').val() + ' ' + 'Email: '
+//         + $('#email').val() + ' ' + 'Number: ' + $('#number').val();
+//         mailOptions.text = $('#message').val();
+    
+        // console.log(name, email, number, message);
+    // });
+  // },
+  // subject: 'Sending Email using Node.js',
+  // text: 'That was easy!'
+// };
+
+// transporter.sendMail(mailOptions, function(error, info){
+//   if (error) {
+//     console.log(error);
+//   } else {
+//     console.log('Email sent: ' + info.response);
+//   }
+// });
 
 // Also write a modal for a successful message sent
 
