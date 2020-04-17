@@ -41,7 +41,7 @@ $("#visitImbibo").on("click", function() {
 });
 
 $("#visitQuizRepo").on("click", function (){
-    window.location.href = "https://github.com/rayamparo/project2";
+    window.location.href = "https://quizmaniaapp.herokuapp.com/";
 })
 
 $("#visitAntiCov").on("click", function() {
