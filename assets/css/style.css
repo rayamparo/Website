@@ -9,7 +9,13 @@
     text-decoration: none;
     transition: all 0.5s ease-in-out;
   }
-  
+
+  .copyRight {
+    color: #F8BA30;
+    position: relative;
+    top: 55px;
+  }
+
   .p-r {
     position: relative;
   }
@@ -638,7 +644,7 @@
   
   .intro-single .breadcrumb {
     background-color: transparent;
-    color: #0078ff;
+    color: #F8BA30;
   }
   
   .intro-single .breadcrumb .breadcrumb-item:before {

@@ -306,7 +306,7 @@
                         </p>
                         <div class="line-mf"></div>
 
-                        <form>
+                        <form action="https://formspree.io/xjvenonj" method="POST">
 
                             <div class="container">
 
@@ -315,7 +315,7 @@
                                         <div class="form-group">
                                             <label id="nameLabel" class="hidden labels" for="name">Name</label>
                                             <input type="input" class="form-control form-control-lg" id="name"
-                                                placeholder="Name" oninput="removeHiddenName()">
+                                                placeholder="Name" oninput="removeHiddenName()" name="name">
                                         </div>
                                         <hr>
                                     </div>
@@ -328,7 +328,7 @@
                                                 Address</label>
                                             <input type="email" class="form-control form-control-lg" id="email"
                                                 aria-describedby="emailHelp" placeholder="Email Address"
-                                                oninput="removeHiddenEmail()">
+                                                oninput="removeHiddenEmail()" name="_replyto">
                                         </div>
                                         <hr>
                                     </div>
@@ -341,7 +341,7 @@
                                                 Number</label>
                                             <input type="input" class="form-control form-control-lg" id="number"
                                                 aria-describedby="number" placeholder="Phone Number"
-                                                oninput="removeHiddenNumber()">
+                                                oninput="removeHiddenNumber()" name="number">
                                         </div>
                                         <hr>
                                     </div>
@@ -353,7 +353,7 @@
                                             <label id="messageLabel" class="hidden labels" for="message">Message</label>
                                             <textarea class="form-control form-control-lg" id="message" rows="5"
                                                 aria-describedby="message" placeholder="Message"
-                                                oninput="removeHiddenMessage()"></textarea>
+                                                oninput="removeHiddenMessage()" name="message"></textarea>
                                         </div>
                                         <hr>
                                     </div>
@@ -396,9 +396,9 @@
                     <div>
                         <div class="more-info">
                             <ul class="list-ico">
-                                <li>
+                                <!-- <li>
                                     <span class="footerWords">14715 W Rose Lane</span>
-                                </li>
+                                </li> -->
                                 <li>
                                     <span class="footerWords">Van Nuys, CA</span>
                                 </li>
@@ -438,13 +438,18 @@
                     <div class="contact-info">
                         <ul class="list-ico">
                             <li>
-                                <span class="ion-ios-telephone footerWords">(818) 518-8576</span>
+                               <a href="tel:8185188576"><span class="ion-ios-telephone footerWords">(818) 518-8576</span> </a>
                             </li>
                             <li>
-                                <span class="ion-email footerWords">raymond.f.amparo@gmail.com</span>
+                               <a class='emailLink' href="mailto:raymond.f.amparo@gmail.com"><span class="ion-email footerWords"> raymond.f.amparo@gmail.com</span> </a>
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="row copyRight">
+                <div class="col-sm-12">
+                    <span class="copyRight">© rayamparo.com</span>
                 </div>
             </div>
         </div>
