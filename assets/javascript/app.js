@@ -146,15 +146,15 @@ function removeHiddenMessage(){
 
 
 
-$('#sendMsgBtn').on('click', function(event){
-  event.preventDefault();
-    let name = $('#name').val();
-    let email = $('#email').val();
-    let number = $('#number').val();
-    let message = $('#message').val();
+// $('#sendMsgBtn').on('click', function(event){
+//   event.preventDefault();
+//     let name = $('#name').val();
+//     let email = $('#email').val();
+//     let number = $('#number').val();
+//     let message = $('#message').val();
 
-    console.log(name, email, number, message);
-});
+//     console.log(name, email, number, message);
+// });
 
 // Nodemailer
 // var nodemailer = require('nodemailer');
