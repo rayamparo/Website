@@ -812,6 +812,10 @@
     text-align: center;
   }
 
+  #mySimpleTetrisModal {
+    text-align: center;
+  }
+
   .modalP {
     font-size: 19px;
   }

@@ -36,13 +36,17 @@ $(document).ready(function() {
 
 // Portfolio Tabs
 
+$("#visitmySimpleTetris").on("click", function() {
+  window.location.href = "https://rayamparo.github.io/mySimpleTetris/";
+});
+
 $("#visitImbibo").on("click", function() {
     window.location.href = "https://hyukjun-kwon.github.io/imbibo/";
 });
 
 $("#visitQuizRepo").on("click", function (){
     window.location.href = "https://quizmaniaapp.herokuapp.com/";
-})
+});
 
 $("#visitAntiCov").on("click", function() {
     window.location.href = "https://anti-covid19-props-teamname.herokuapp.com/";
@@ -156,41 +160,6 @@ function removeHiddenMessage(){
 //     console.log(name, email, number, message);
 // });
 
-// Nodemailer
-// var nodemailer = require('nodemailer');
-
-// var transporter = nodemailer.createTransport({
-//   service: 'gmail',
-//   auth: {
-//     user: 'contactsender123@gmail.com',
-//     pass: 'Lawray2112!'
-//   }
-// });
-
-// let mailOptions = {
-//   from: 'contactsender123@gmail.com',
-//   to: 'raymond.f.amparo',
-//   sender: function() {
-//     $('#sendMsgBtn').on('click', function(event){
-//       event.preventDefault();
-//         mailOptions.subject = 'Name: ' + $('#name').val() + ' ' + 'Email: '
-//         + $('#email').val() + ' ' + 'Number: ' + $('#number').val();
-//         mailOptions.text = $('#message').val();
-    
-        // console.log(name, email, number, message);
-    // });
-  // },
-  // subject: 'Sending Email using Node.js',
-  // text: 'That was easy!'
-// };
-
-// transporter.sendMail(mailOptions, function(error, info){
-//   if (error) {
-//     console.log(error);
-//   } else {
-//     console.log('Email sent: ' + info.response);
-//   }
-// });
 
 // Also write a modal for a successful message sent
 

@@ -82,7 +82,7 @@
                     <!-- <p class="display-6 color-d">Hello World!</p> -->
                     <h1 class="intro-title mb-4">Hi! I'm <span class="myName">Raymond Amparo</span></h1>
                     <p class="intro-subtitle">
-                        <span class="text-slider-items">Full-Stack Web Developer, Back-End:, NodeJS-MySQL-MongoDB,
+                        <span class="text-slider-items">Full-Stack Web Developer, Back-End:, NodeJS-PostgreSQL-MongoDB,
                             Front-End:, HTML5-CSS3-REACT </span><strong class="text-slider"></strong>
                     </p>
                 </div>
@@ -161,8 +161,49 @@
                 </div>
             </div>
 
-            <!-- imbibo -->
+            
             <div class="row">
+                
+                <!-- mySimpleTetris -->
+                <div class="col-lg-4">
+                    <div class="card bg-warning">
+                        <img src="./assets/images/mySimpleTetris.png" class="card-img" alt="mySimpleTetris">
+                        <div class="middle">
+                            <button type="button" id="mySimpleTetrisBtn" class="btn btn-outline-warning btn-lg"
+                            data-toggle="modal" data-target="#mySimpleTetrisModal">Learn
+                            More</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- mySimpleTetris Modal-->
+                
+                <div class="modal fade" id="mySimpleTetrisModal" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">mySimpleTetris</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img id="mySimpleTetrisModal" src="./assets/images/mySimpleTetrisModal.png" />
+                            <hr>
+                            <p class="modalP">
+                                mySimpleTetris, a near endless game of Tetris to help improve your Tetris skills! Made by a Tetris player for Tetris players!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-warning" id="visitmySimpleTetris"><i
+                                    class="fas fa-external-link-alt fa-1x"></i> View App</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                <!-- imbibo -->
                 <div class="col-lg-4">
                     <div class="card bg-warning">
                         <img src="./assets/images/imbibo.png" class="card-img" alt="imbibo">
@@ -247,6 +288,11 @@
                 </div>
 
 
+            </div>
+            
+            
+            <div class="row">
+                
                 <!-- Anti-COVID-19 -->
                 <div class="col-lg-4">
                     <div class="card bg-warning">
@@ -257,33 +303,32 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- Anti-COVID-19 -->
-            <div class="modal fade" id="antiCovModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">Anti-COVID-19 Clicker Game</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <img id="antiCovModal" src="./assets/images/antiCovModal.jpg" />
-                            <hr>
-                            <p class="modalP">
-                                In late 2019, the human race was faced with an unseen foe that is COVID-19, causing a
-                                widespread of panic for toilet paper.
-                                Now present day, we are all locked
-                                indoors as toilet paper rations begin to run low. It is up to you to stop this menacing
-                                foe and get the world back their toilet paper!</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-warning" id="visitAntiCov"><i
-                                    class="fas fa-external-link-alt fa-1x"></i> View App</button>
+                <!-- Anti-COVID-19 -->
+                <div class="modal fade" id="antiCovModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Anti-COVID-19 Clicker Game</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img id="antiCovModal" src="./assets/images/antiCovModal.jpg" />
+                                <hr>
+                                <p class="modalP">
+                                    In late 2019, the human race was faced with an unseen foe that is COVID-19, causing a
+                                    widespread of panic for toilet paper.
+                                    Now present day, we are all locked
+                                    indoors as toilet paper rations begin to run low. It is up to you to stop this menacing
+                                    foe and get the world back their toilet paper!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-warning" id="visitAntiCov"><i
+                                        class="fas fa-external-link-alt fa-1x"></i> View App</button>
+                            </div>
                         </div>
                     </div>
                 </div>
