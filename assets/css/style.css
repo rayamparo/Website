@@ -814,6 +814,11 @@
 
   #mySimpleTetrisModal {
     text-align: center;
+
+  }
+
+  #mediationModal {
+    margin-left: 14px;
   }
 
   .modalP {

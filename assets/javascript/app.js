@@ -52,6 +52,10 @@ $("#visitAntiCov").on("click", function() {
     window.location.href = "https://anti-covid19-props-teamname.herokuapp.com/";
 });
 
+$("#visitMeditation").on("click", function() {
+  window.location.href = "https://rayamparo.github.io/meditation-app/";
+});
+
 // Tab Clicks
 document.querySelectorAll('a[href^="#"]').forEach($anchor => {
     $anchor.addEventListener('click', function (e) {
